@@ -1,0 +1,180 @@
+.profile{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.search{
+    width: 350px
+}
+
+.search_btn{
+    padding: 3px;
+    background-color: darkgreen;
+    color: white;
+}
+
+.topbar{
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 5px 0px rgba(0,0,0,0.75);
+}
+
+#dropdown1, #dropdown2{
+    padding: 3px;
+    width: 200px;
+}
+
+
+
+/* LEFTCARD */
+
+.leftcard{
+    padding: 0px 10px;
+    border: 1px solid gray;
+    width: 250px;
+}
+
+.topflexbox{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+
+.left_profilepic{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: darkgreen;
+    color: white;
+    width: 100px;
+}
+
+.tag > p{
+    margin: 15px 0px 0px 0px;
+}
+
+.tag > h2{
+    margin: 0px 0px 15px 0px;
+}
+
+.name, .about, .website{
+    text-align: left;
+}
+
+.name{
+    color: darkgreen;
+}
+
+.singlecard{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid gray;
+}
+
+
+
+
+
+/* RightCard */
+
+.callindicard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.see_more{
+    color: darkgreen;
+    display: flex;
+    align-items: center;
+}
+
+
+/* IndiCArd */
+.indi_card{
+    padding: 10px;
+    position: relative;
+    width: 400px;
+    border: 1px solid gray;
+}
+
+.first_row_flex{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.primary_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.gray_out{
+    color: gray;
+}
+
+.primary_info > h3{
+    margin: 0px;
+}
+
+
+.second_row_flex{
+    display: flex;
+    margin-bottom: 15px;
+    gap: 30px;
+}
+
+.second_row_flex_child{
+    display: flex;
+    flex-direction: column;
+}
+
+.second_row_flex_child > p, h2{
+    margin: 0px;
+}
+
+span{
+    font-size: 30px;
+}
+
+.third_row_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.btn{
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+}
+
+
+/* PARENT */
+.parent{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
